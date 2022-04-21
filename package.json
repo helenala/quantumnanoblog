@@ -1,0 +1,48 @@
+{
+  "name": "quantum-nanoscience-website",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^6.2.0",
+    "@types/react-modal": "^3.13.1",
+    "gray-matter": "^4.0.3",
+    "immer": "^9.0.12",
+    "next": "^12.0.8",
+    "next-pwa": "^5.4.4",
+    "next-seo": "^5.1.0",
+    "node-fetch": "^3.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.18.0",
+    "react-hot-toast": "^2.2.0",
+    "react-markdown": "^8.0.1",
+    "react-modal": "^3.14.4",
+    "react-remove-scroll": "^2.4.3",
+    "react-use": "^17.3.2",
+    "rehype-external-links": "^1.0.1",
+    "remark": "^14.0.2",
+    "remark-embed-images": "^3.1.0",
+    "remark-html": "^15.0.1",
+    "sharp": "^0.29.3",
+    "styled-components": "^5.3.3",
+    "styled-reset": "^4.3.4",
+    "unsplash-js": "^7.0.15",
+    "zustand": "^3.6.9"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "@types/node-fetch": "^2.6.1",
+    "@types/react": "^17.0.38",
+    "@types/styled-components": "^5.1.20",
+    "babel-plugin-styled-components": "^2.0.2",
+    "eslint": "^8.6.0",
+    "eslint-config-next": "^12.0.8",
+    "graphql-request": "^4.0.0",
+    "typescript": "^4.5.4"
+  }
+}
