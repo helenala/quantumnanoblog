@@ -97,25 +97,33 @@ const AboutPage: NextPage = () => {
                   name={"Sonakshi Arora"}
                   image={SonakshiProfilePicture}
                   alt={"Picture of Sonakshi Arora"}
-                  description={"This is Sonakshi Arora"}
+                  description={
+                    "Yello! I’m Sonakshi and I moved about 7 years ago to Europe from India for my masters in Berlin and now I am finishing up (hopefully) my phd in delft. I work on topological photonic crystals and look at all the cool topological physics happening at the nanoscale using a fancy near-field microscope. I’m a mother to my beautiful cat, Garlic and if that story isn’t  interesting enough you should talk to me about my love for very (basic) pop music, alcoholic beverages and dead baby jokes. Otherwise, I’m pretty easy going. Hope you enjoy the blog!"
+                  }
                 />
                 <AuthorCard
                   name={"Luigi Maduro"}
                   image={LuigiProfilePicture}
                   alt={"Picture of Luigi Maduro"}
-                  description={"This is Luigi Maduro"}
+                  description={
+                    "Well hello, I didn’t see you there. I’m Luigi Maduro and I joined QN as a phd candidate in the Conesa-Boj lab and am currently a postdoc in the same group. I work on the nanofabrication and theoretical calculations of two-dimensional materials. I’m originally from Aruba and moved to the Netherlands to pursue my interest in physics and to see a bit more of the world. I enjoy playing music, in whatever form I can get my hands on."
+                  }
                 />
                 <AuthorCard
                   name={"Helena La"}
                   image={HelenaProfilePicture}
                   alt={"Picture of Helena La"}
-                  description={"This is Helena La"}
+                  description={
+                    "Hello! 👋 My name is Helena La and I just finished my master’s. In January 2022, I joined the Conesa-Boj Lab as a PhD student focussing on machine learning for the theoretical modeling of STEM-EELS measurements of nanostructures. I was born and raised in West-Friesland (but I don’t have a strong accent, I think?). At any moment of the day, you will probably either find me drinking coffee, strolling around on campus or swimming in an indoor pool."
+                  }
                 />
                 <AuthorCard
                   name={"Chunwei Li"}
                   image={ChunWeiProfilePicture}
                   alt={"Picture of Chunwei Li"}
-                  description={"This is Chunwei Li"}
+                  description={
+                    "Hi, I am Chunwei Hsu, a PhD student in the van der Zant lab. I am originally from Taiwan and moved to Canada by the age of 15. I completed my undergraduate study at McGill in Canada and moved here to Delft for my master and PhD degree. In my PhD research, I study different aspects of electronic and thermoelectric transport in mesoscopic systems, such as single molecules and 2D materials. In my free time, I enjoy cooking and traveling."
+                  }
                 />
               </EditorialTeamAuthorsContainer>
             </EditorialTeamContainer>
